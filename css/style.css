@@ -8,12 +8,13 @@ colore editorial: #45abea
 colore Q1: #9c72e4
 */
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
 body{
     background-color: #f6f8f9;
 }
@@ -25,4 +26,37 @@ body{
 
 h1{
     display: inline-block;
+    padding: 10px;
+    line-height: 40px;
+}
+
+main{
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 60%;
+    height: 790px;
+    border-radius: 10px;
+    padding: 20px 60px;
+    background-color: white;
+    display: flex;
+}
+
+.contenitore{
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+}
+
+.add-task{
+    background-color: #47adf1;
+}
+
+.add-section{
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    margin-left: 10px;
 }
