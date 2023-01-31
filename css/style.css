@@ -1,0 +1,28 @@
+/* 
+colori:
+colore intestazione pagina: #ffffff
+colore body: #f6f8f9
+colore main: #ffffff
+colore add task: #47adf1
+colore editorial: #45abea
+colore Q1: #9c72e4
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f8f9;
+}
+
+.intestazione{
+    width: 100%;
+    background-color: white;
+}
+
+h1{
+    display: inline-block;
+}
