@@ -19,29 +19,34 @@ body{
     background-color: #f6f8f9;
 }
 
+/* Header */
+
 .intestazione{
     width: 100%;
     background-color: white;
 }
 
-h1{
-    display: inline-block;
-    padding: 10px;
-    line-height: 40px;
+.intestazione img{
+    vertical-align: middle;
 }
 
-main{
+.intestazione h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.task{
     margin-top: 3%;
     margin-left: 20%;
     width: 60%;
-    height: 790px;
-    border-radius: 10px;
+    height: 60px;
+    border-radius: 10px 10px 0px 0px;
     padding: 20px 60px;
     background-color: white;
-    display: flex;
+    border-bottom: 3px solid #f6f8f9;
 }
 
-.contenitore{
+.bottone{
     height: 30px;
     border-radius: 4px;
     text-align: center;
@@ -59,4 +64,11 @@ main{
     color: lightgrey;
     border: 1px solid lightgrey;
     margin-left: 10px;
+}
+
+.elementi{
+    margin-top: 0;
+    height: 720px;
+    border-radius: 0px 0px 10px 10px;
+    border: 0;
 }
