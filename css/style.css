@@ -4,8 +4,6 @@ colore intestazione pagina: #ffffff
 colore body: #f6f8f9
 colore main: #ffffff
 colore add task: #47adf1
-colore editorial: #45abea
-colore Q1: #9c72e4
 */
 
 *{
@@ -24,6 +22,7 @@ body{
 .intestazione{
     width: 100%;
     background-color: white;
+    padding: 10px 20px;
 }
 
 .intestazione img{
@@ -34,6 +33,8 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
+
+/* main */
 
 .task{
     margin-top: 3%;
@@ -46,8 +47,18 @@ body{
     border-bottom: 3px solid #f6f8f9;
 }
 
+.elementi{
+    margin-top: 0;
+    height: 720px;
+    border-radius: 0px 0px 10px 10px;
+    border: 0;
+}
+
+/* task */
+
 .bottone{
     height: 30px;
+    border: 0px;
     border-radius: 4px;
     text-align: center;
     padding: 6px;
@@ -61,14 +72,69 @@ body{
 }
 
 .add-section{
+    background-color: white;
     color: lightgrey;
     border: 1px solid lightgrey;
     margin-left: 10px;
 }
 
-.elementi{
-    margin-top: 0;
-    height: 720px;
-    border-radius: 0px 0px 10px 10px;
-    border: 0;
+/* elementi */
+
+ul{
+    margin: 14px 0px 40px;
+}
+
+li{
+    list-style: none;
+    margin: 0px 0px 20px;
+}
+
+.check{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #7acab8;
+    color: #7acab8;
+    display: inline-block;
+    text-align: center;
+}
+
+.uncheck{
+    border: 1px solid #ea4f44;
+    color: #ea4f44;
+}
+
+.dimensione-carattere{
+    font-size: 20px;
+}
+
+.riquadri{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+}
+
+.riquadri-blu{
+    background-color: #45abea;
+}
+
+.riquadri-viola{
+    background-color: #9c72e4;
+}
+
+.riquadri-verdi{
+    background-color: #64c0a9;
+}
+
+.riquadri-arancioni{
+    background-color: #f29e33;
+}
+
+.riquadri-viola-chiaro{
+    background-color: #d863a1;
+}
+
+.riquadri-verde-chiaro{
+    background-color: #b0c926;
 }
